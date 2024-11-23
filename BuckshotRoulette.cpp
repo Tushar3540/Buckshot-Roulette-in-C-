@@ -135,6 +135,7 @@ switchCon:
         }
         break;
     }
+    return 0;
 }
 
 vector<int> insertingBullets(vector<int> &occupied, int n)
@@ -175,4 +176,5 @@ again:
     }
     insertingBullets(occupied, n);
     gameLogic(occupied, p1, p2, lives1, lives2, n);
+    return 0;
 }
